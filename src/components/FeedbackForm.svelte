@@ -1,5 +1,5 @@
 <script>
-  import { createEventDispatcher } from "svelte";
+  import { FeedbackStore } from "../store";
   import { v4 as uuidv4 } from "uuid";
   import Button from "./Button.svelte";
   import Card from "./Card.svelte";
@@ -9,8 +9,6 @@
   let btnDisabled = true;
   let message;
   let rating = 10;
-
-  const dispatch = createEventDispatcher();
 
   const handleInput = () => {
     if (text.trim().length <= 10) {
@@ -28,10 +26,15 @@
     if (text.trim().length <= 10) {
       btnDisabled = true;
     }
-    dispatch("feedback-submit", {
-      id: uuidv4(),
-      rating: +rating,
-      text,
+    FeedbackStore.update((currentFeedback) => {
+      return [
+        {
+          id: uuidv4(),
+          rating: +rating,
+          text,
+        },
+        ...currentFeedback,
+      ];
     });
   };
 </script>
