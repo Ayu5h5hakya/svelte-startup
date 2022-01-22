@@ -1,4 +1,6 @@
 <script>
+  import { createEventDispatcher } from "svelte";
+  import { v4 as uuidv4 } from "uuid";
   import Button from "./Button.svelte";
   import Card from "./Card.svelte";
   import RatingSelect from "./RatingSelect.svelte";
@@ -7,6 +9,8 @@
   let btnDisabled = true;
   let message;
   let rating = 10;
+
+  const dispatch = createEventDispatcher();
 
   const handleInput = () => {
     if (text.trim().length <= 10) {
@@ -19,6 +23,17 @@
   };
 
   const handleSelect = (e) => (rating = e.detail);
+
+  const handleSubmit = () => {
+    if (text.trim().length <= 10) {
+      btnDisabled = true;
+    }
+    dispatch("feedback-submit", {
+      id: uuidv4(),
+      rating: +rating,
+      text,
+    });
+  };
 </script>
 
 <Card>
@@ -26,7 +41,7 @@
     <h2>How would you rate your service with us?</h2>
   </header>
   <RatingSelect on:rating-select={handleSelect} />
-  <form>
+  <form on:submit|preventDefault={handleSubmit}>
     <div class="input-group">
       <input
         type="text"
