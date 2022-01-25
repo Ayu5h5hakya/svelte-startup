@@ -1,5 +1,6 @@
 <script>
   import Header from "./components/Header.svelte";
+  import Footer from "./components/Footer.svelte";
 </script>
 
 <Header />
@@ -10,6 +11,7 @@
     modi laborum explicabo necessitatibus doloremque et perferendis? Excepturi.
   </p>
 </main>
+<Footer />
 
 <style>
   main {
