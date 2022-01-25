@@ -1,15 +1,15 @@
 <script>
   import Header from "./components/Header.svelte";
   import Footer from "./components/Footer.svelte";
+  import Tabs from "./shared/Tabs.svelte";
+
+  let items = ["Current Polls", "Add new  Poll"];
+  let activeItem = items[0];
 </script>
 
 <Header />
 <main>
-  <p>
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui vel nostrum
-    minus ullam molestiae odio. Ipsa sed molestias, corrupti atque id dolorem
-    modi laborum explicabo necessitatibus doloremque et perferendis? Excepturi.
-  </p>
+  <Tabs {activeItem} {items} />
 </main>
 <Footer />
 
