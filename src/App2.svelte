@@ -14,6 +14,11 @@
 <Header />
 <main>
   <Tabs {activeItem} {items} on:tab-change={onTabChange} />
+  {#if activeItem === items[0]}
+    <p>Poll listing selected</p>
+  {:else}
+    <p>Poll addition selected</p>
+  {/if}
 </main>
 <Footer />
 
