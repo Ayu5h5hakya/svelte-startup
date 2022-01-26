@@ -7,10 +7,32 @@
   <ul>
     {#each items as item}
       <li>
-        <div>{item}</div>
+        <div class:active={item === activeItem}>{item}</div>
       </li>
     {/each}
   </ul>
 </div>
 
-<style></style>
+<style>
+  .tabs {
+    margin-bottom: 40px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  li {
+    margin: 0 16px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .active {
+    color: #d91b42;
+    border-bottom: 2px #d91b42;
+    padding-bottom: 8px;
+  }
+</style>
