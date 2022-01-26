@@ -1,13 +1,25 @@
 <script>
+  import { createEventDispatcher } from "svelte";
   export let activeItem;
   export let items;
+
+  const dispatch = createEventDispatcher();
+
+  const onTabClick = (item) => {
+    dispatch("tab-change", item);
+  };
 </script>
 
 <div class="tabs">
   <ul>
     {#each items as item}
       <li>
-        <div class:active={item === activeItem}>{item}</div>
+        <div
+          class:active={item === activeItem}
+          on:click={() => onTabClick(item)}
+        >
+          {item}
+        </div>
       </li>
     {/each}
   </ul>
