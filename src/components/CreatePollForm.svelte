@@ -1,6 +1,6 @@
 <script>
   let fields = { question: "", answerA: "", answerB: "" };
-  const submitHandler = () => {
+  let submitHandler = () => {
     console.log(fields);
   };
 </script>
@@ -11,14 +11,31 @@
     <input type="text" id="question" bind:value={fields.question} />
   </div>
   <div class="form-field">
-    <label for="question">Poll Question:</label>
-    <input type="text" id="question" bind:value={fields.answerA} />
+    <label for="answer-a">Answer A value:</label>
+    <input type="text" id="answer-a" bind:value={fields.answerA} />
   </div>
   <div class="form-field">
-    <label for="question">Poll Question:</label>
-    <input type="text" id="question" bind:value={fields.answerB} />
+    <label for="answer-b">Answer B value:</label>
+    <input type="text" id="answer-b" bind:value={fields.answerB} />
   </div>
   <button>Add Poll</button>
 </form>
 
-<style></style>
+<style>
+  form {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .form-field {
+    text-align: left;
+    margin: 18px auto;
+  }
+  input {
+    width: 100%;
+    border-radius: 6px;
+  }
+  label {
+    margin: 10px auto;
+  }
+</style>
