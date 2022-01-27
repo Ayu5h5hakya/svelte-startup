@@ -5,7 +5,7 @@
   import Tabs from "./shared/Tabs.svelte";
 
   let items = ["Current Polls", "Add new  Poll"];
-  let activeItem = items[0];
+  let activeItem = items[1];
 
   const onTabChange = (e) => {
     activeItem = e.detail;
