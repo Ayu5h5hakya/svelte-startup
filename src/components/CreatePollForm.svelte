@@ -1,8 +1,26 @@
 <script>
   import Button from "../shared/Button.svelte";
   let fields = { question: "", answerA: "", answerB: "" };
+  let errors = { question: "", answerA: "", answerB: "" };
+  let valid = false;
   let submitHandler = () => {
-    console.log(fields);
+    valid = true;
+    if (fields.question.trim().length != 5) {
+      valid = false;
+      errors.question = "Question must be atleast 5 characters long!";
+    } else errors.question = "";
+    if (fields.answerA.trim().length < 1) {
+      valid = false;
+      errors.question = "Answer must be non empty";
+    } else errors.answerA = "";
+    if (fields.answerB.trim().length < 1) {
+      valid = false;
+      errors.question = "Answer must be non empty";
+    } else errors.answerB = "";
+
+    if (valid) {
+      console.log(fields);
+    }
   };
 </script>
 
