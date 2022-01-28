@@ -8,14 +8,16 @@
   let items = ["Current Polls", "Add new  Poll"];
   let activeItem = items[1];
 
-  let polls = {
-    id: 1,
-    question: "what is your favorite sleeping position?",
-    answerA: "thunder kick",
-    answerB: "facedown",
-    voteA: 9,
-    voteB: 16,
-  };
+  let polls = [
+    {
+      id: 1,
+      question: "what is your favorite sleeping position?",
+      answerA: "thunder kick",
+      answerB: "facedown",
+      voteA: 9,
+      voteB: 16,
+    },
+  ];
 
   const onTabChange = (e) => {
     activeItem = e.detail;
@@ -25,6 +27,7 @@
     const newPoll = e.detail;
     polls = [newPoll, ...polls];
     activeItem = items[0];
+    console.log("here");
   };
 </script>
 
