@@ -60,4 +60,9 @@
   label {
     margin: 10px auto;
   }
+  .error {
+    font-weight: bold;
+    font-size: 12px;
+    color: #d91b42;
+  }
 </style>
