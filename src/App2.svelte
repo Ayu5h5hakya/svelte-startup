@@ -2,6 +2,7 @@
   import Header from "./components/Header.svelte";
   import Footer from "./components/Footer.svelte";
   import CreatePollForm from "./components/CreatePollForm.svelte";
+  import PollList from "./components/PollList.svelte";
   import Tabs from "./shared/Tabs.svelte";
 
   let items = ["Current Polls", "Add new  Poll"];
@@ -23,6 +24,7 @@
   const onNewPoll = (e) => {
     const newPoll = e.detail;
     polls = [newPoll, ...polls];
+    activeItem = items[0];
   };
 </script>
 
@@ -30,7 +32,7 @@
 <main>
   <Tabs {activeItem} {items} on:tab-change={onTabChange} />
   {#if activeItem === items[0]}
-    <p>Poll listing selected</p>
+    <PollList {polls} />
   {:else}
     <CreatePollForm on:add-poll={onNewPoll} />
   {/if}
