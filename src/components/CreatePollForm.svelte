@@ -5,17 +5,17 @@
   let valid = false;
   let submitHandler = () => {
     valid = true;
-    if (fields.question.trim().length != 5) {
+    if (fields.question.trim().length <= 5) {
       valid = false;
       errors.question = "Question must be atleast 5 characters long!";
     } else errors.question = "";
     if (fields.answerA.trim().length < 1) {
       valid = false;
-      errors.question = "Answer must be non empty";
+      errors.answerA = "Answer must be non empty";
     } else errors.answerA = "";
     if (fields.answerB.trim().length < 1) {
       valid = false;
-      errors.question = "Answer must be non empty";
+      errors.answerB = "Answer must be non empty";
     } else errors.answerB = "";
 
     if (valid) {
@@ -28,14 +28,17 @@
   <div class="form-field">
     <label for="question">Poll Question:</label>
     <input type="text" id="question" bind:value={fields.question} />
+    <div class="error">{errors.question}</div>
   </div>
   <div class="form-field">
     <label for="answer-a">Answer A value:</label>
     <input type="text" id="answer-a" bind:value={fields.answerA} />
+    <div class="error">{errors.answerA}</div>
   </div>
   <div class="form-field">
     <label for="answer-b">Answer B value:</label>
     <input type="text" id="answer-b" bind:value={fields.answerB} />
+    <div class="error">{errors.answerB}</div>
   </div>
   <Button type="secondary" flat={true}>Add Poll</Button>
 </form>
