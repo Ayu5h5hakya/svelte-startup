@@ -27,7 +27,24 @@
     const newPoll = e.detail;
     polls = [newPoll, ...polls];
     activeItem = items[0];
-    console.log("here");
+  };
+
+  const onAnswerA = (e) => {
+    const { poll } = e.detail;
+    const id = poll.id;
+    let copiedPolls = [...polls];
+    let upvotedPoll = copiedPolls.find((item) => item.id == id);
+    upvotedPoll.voteA++;
+    polls = copiedPolls;
+  };
+
+  const onAnswerB = (e) => {
+    const { poll } = e.detail;
+    const id = poll.id;
+    let copiedPolls = [...polls];
+    let upvotedPoll = copiedPolls.find((item) => item.id == id);
+    upvotedPoll.voteB++;
+    polls = copiedPolls;
   };
 </script>
 
@@ -35,7 +52,7 @@
 <main>
   <Tabs {activeItem} {items} on:tab-change={onTabChange} />
   {#if activeItem === items[0]}
-    <PollList {polls} />
+    <PollList {polls} on:answer-a={onAnswerA} on:answer-b={onAnswerB} />
   {:else}
     <CreatePollForm on:add-poll={onNewPoll} />
   {/if}

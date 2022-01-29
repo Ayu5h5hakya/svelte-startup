@@ -6,11 +6,11 @@
 
   $: totalVotes = poll.voteA + poll.voteB;
 
-  onAnswerA = () => {
+  const onAnswerA = () => {
     dispatch("answer-a", { poll });
   };
 
-  onAnswerB = () => {
+  const onAnswerB = () => {
     dispatch("answer-b", { poll });
   };
 </script>
