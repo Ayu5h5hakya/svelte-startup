@@ -55,4 +55,18 @@
     padding: 10px 20px;
     color: red;
   }
+
+  .percent {
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+  }
+
+  .percent-a {
+    background: rgba(217, 27, 66, 0, 0.2);
+  }
+
+  .percent-b {
+    background: rgba(69, 196, 150, 0.2);
+  }
 </style>
