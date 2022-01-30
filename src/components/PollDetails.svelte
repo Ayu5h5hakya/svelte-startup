@@ -26,6 +26,12 @@
       return copiedPolls;
     });
   };
+
+  const handleDelete = (id) => {
+    PollStore.update((currentPolls) => {
+      return currentPolls.filter((poll) => poll.id != id);
+    });
+  };
 </script>
 
 <Card>
@@ -41,7 +47,7 @@
       <span>{poll.answerB} ({poll.voteB})</span>
     </div>
     <div class="delete">
-      <Button flat={true}>Delete</Button>
+      <Button flat={true} on:click={() => handleDelete(poll.id)}>Delete</Button>
     </div>
   </div>
 </Card>
