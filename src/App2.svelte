@@ -13,27 +13,25 @@
   };
 
   const onNewPoll = (e) => {
-    const newPoll = e.detail;
-    polls = [newPoll, ...polls];
-    activeItem = items[0];
+    // const newPoll = e.detail;
+    // polls = [newPoll, ...polls];
+    // activeItem = items[0];
   };
 
   const onAnswerA = (e) => {
-    const { poll } = e.detail;
-    const id = poll.id;
-    let copiedPolls = [...polls];
-    let upvotedPoll = copiedPolls.find((item) => item.id == id);
-    upvotedPoll.voteA++;
-    polls = copiedPolls;
+    // const { poll } = e.detail;
+    // const id = poll.id;
+    // let copiedPolls = [...polls];
+    // let upvotedPoll = copiedPolls.find((item) => item.id == id);
+    // upvotedPoll.voteA++;
   };
 
   const onAnswerB = (e) => {
-    const { poll } = e.detail;
-    const id = poll.id;
-    let copiedPolls = [...polls];
-    let upvotedPoll = copiedPolls.find((item) => item.id == id);
-    upvotedPoll.voteB++;
-    polls = copiedPolls;
+    // const { poll } = e.detail;
+    // const id = poll.id;
+    // let copiedPolls = [...polls];
+    // let upvotedPoll = copiedPolls.find((item) => item.id == id);
+    // upvotedPoll.voteB++;
   };
 </script>
 
