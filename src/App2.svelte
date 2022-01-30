@@ -13,9 +13,7 @@
   };
 
   const onNewPoll = (e) => {
-    // const newPoll = e.detail;
-    // polls = [newPoll, ...polls];
-    // activeItem = items[0];
+    activeItem = items[0];
   };
 
   const onAnswerA = (e) => {
