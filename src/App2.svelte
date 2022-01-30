@@ -6,7 +6,7 @@
   import Tabs from "./shared/Tabs.svelte";
 
   let items = ["Current Polls", "Add new  Poll"];
-  let activeItem = items[1];
+  let activeItem = items[0];
 
   const onTabChange = (e) => {
     activeItem = e.detail;
@@ -39,7 +39,7 @@
 <main>
   <Tabs {activeItem} {items} on:tab-change={onTabChange} />
   {#if activeItem === items[0]}
-    <PollList on:answer-a={onAnswerA} on:answer-b={onAnswerB} />
+    <PollList />
   {:else}
     <CreatePollForm on:add-poll={onNewPoll} />
   {/if}

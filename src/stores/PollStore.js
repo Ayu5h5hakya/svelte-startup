@@ -1,6 +1,6 @@
-import { writeable } from "svelte/store";
+import { writable } from "svelte/store";
 
-const PollStore = writeable([
+const PollStore = writable([
   {
     id: 1,
     question: "what is your favorite sleeping position?",
