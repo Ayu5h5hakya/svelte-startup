@@ -1,19 +1,14 @@
 <script>
-  import { Router, Route, Link } from "svelte-routing";
+  import Router from "svelte-spa-router";
   import FeedbackApp from "./components/FeedbackApp.svelte";
   import PollingApp from "./components/PollingApp.svelte";
 
-  export let url = "";
+  let routes = {
+    "/": PollingApp,
+    "/feedback": FeedbackApp,
+  };
 </script>
 
-<Router {url}>
-  <nav>
-    <Link to="/">Poll</Link>
-    <Link to="/feedback">Feedback</Link>
-  </nav>
-
-  <div>
-    <Route path="/"><PollingApp /></Route>
-    <Route path="/feedback"><FeedbackApp /></Route>
-  </div>
-</Router>
+<main>
+  <Router {routes} />
+</main>
