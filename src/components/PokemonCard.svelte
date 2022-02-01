@@ -2,4 +2,7 @@
 	export let pokemon;
 </script>
 
-<p>{pokemon.name}</p>
+<a href={'/pokemon/${pokemon.id}'}>
+	<img src={pokemon.image} alt="" />
+	<p>{pokemon.name}</p>
+</a>
