@@ -13,7 +13,7 @@
 	.card {
 		text-align: center;
 		padding: 40px;
-		margin: 10px;
+		margin: 5px;
 		background: #e74c3c;
 	}
 </style>
