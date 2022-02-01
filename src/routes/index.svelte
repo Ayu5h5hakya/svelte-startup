@@ -2,6 +2,7 @@
 	import { onDestroy } from 'svelte/internal';
 
 	import { PokeStore } from '../stores/Pokestore.js';
+	import PokemonCard from '../components/PokemonCard.svelte';
 	let pokemonList = [];
 
 	const unSub = PokeStore.subscribe((data) => {
@@ -11,7 +12,7 @@
 
 <div class="container">
 	{#each pokemonList as pokemon}
-		<p>{pokemon.name}</p>
+		<PokemonCard {pokemon} />
 	{/each}
 </div>
 
