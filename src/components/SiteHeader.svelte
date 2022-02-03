@@ -1,4 +1,6 @@
 <script>
+	import Modal from 'svelte-simple-modal';
+	import Content from './Content.svelte';
 </script>
 
 <header>
@@ -6,7 +8,9 @@
 		src="https://d35aaqx5ub95lt.cloudfront.net/images/dca3b978d07a7dfc05adb1d5526e9e21.svg"
 		alt=""
 	/>
-	<span class="header-lang-selector">Site language : English</span>
+	<Modal>
+		<Content />
+	</Modal>
 </header>
 
 <style>
