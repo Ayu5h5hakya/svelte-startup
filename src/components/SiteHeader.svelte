@@ -5,6 +5,10 @@
 	const openModal = () => {
 		isModalOpen = true;
 	};
+
+	const closeModal = () => {
+		isModalOpen = false;
+	};
 </script>
 
 <header>
@@ -12,7 +16,7 @@
 		src="https://d35aaqx5ub95lt.cloudfront.net/images/dca3b978d07a7dfc05adb1d5526e9e21.svg"
 		alt=""
 	/>
-	<button on:click={openModal}>Press Me!</button>
+	<div on:mouseover={openModal} on:mouseout={closeModal}>Press Me!</div>
 </header>
 
 {#if isModalOpen}
