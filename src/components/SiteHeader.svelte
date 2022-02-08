@@ -1,5 +1,6 @@
 <script>
 	import Modal from '../shared/Modal.svelte';
+	import LanguageItem from '../components/LanguageItem.svelte';
 	let isModalOpen = false;
 
 	const openModal = () => {
@@ -16,34 +17,29 @@
 		src="https://d35aaqx5ub95lt.cloudfront.net/images/dca3b978d07a7dfc05adb1d5526e9e21.svg"
 		alt=""
 	/>
-	<div on:mouseover={openModal} on:mouseout={closeModal}>Press Me!</div>
+	<div on:mouseover={openModal}>Press Me!</div>
 </header>
 
 {#if isModalOpen}
 	<Modal>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
+		<LanguageItem />
+		<LanguageItem />
+		<LanguageItem />
+		<LanguageItem />
+		<LanguageItem />
+		<LanguageItem />
+		<LanguageItem />
+		<LanguageItem />
+		<LanguageItem />
+		<LanguageItem />
+		<LanguageItem />
+		<LanguageItem />
+		<LanguageItem />
+		<LanguageItem />
+		<LanguageItem />
+		<LanguageItem />
+		<LanguageItem />
+		<LanguageItem />
 	</Modal>
 {/if}
 
@@ -55,9 +51,5 @@
 	}
 	img {
 		height: 36px;
-	}
-	.content-item {
-		min-width: 150px;
-		margin: 5px;
 	}
 </style>
