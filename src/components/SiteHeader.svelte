@@ -20,7 +20,31 @@
 </header>
 
 {#if isModalOpen}
-	<Modal />
+	<Modal>
+		<div class="content-item">Text</div>
+		<div class="content-item">Text</div>
+		<div class="content-item">Text</div>
+		<div class="content-item">Text</div>
+		<div class="content-item">Text</div>
+		<div class="content-item">Text</div>
+		<div class="content-item">Text</div>
+		<div class="content-item">Text</div>
+		<div class="content-item">Text</div>
+		<div class="content-item">Text</div>
+		<div class="content-item">Text</div>
+		<div class="content-item">Text</div>
+		<div class="content-item">Text</div>
+		<div class="content-item">Text</div>
+		<div class="content-item">Text</div>
+		<div class="content-item">Text</div>
+		<div class="content-item">Text</div>
+		<div class="content-item">Text</div>
+		<div class="content-item">Text</div>
+		<div class="content-item">Text</div>
+		<div class="content-item">Text</div>
+		<div class="content-item">Text</div>
+		<div class="content-item">Text</div>
+	</Modal>
 {/if}
 
 <style>
@@ -31,5 +55,9 @@
 	}
 	img {
 		height: 36px;
+	}
+	.content-item {
+		min-width: 150px;
+		margin: 5px;
 	}
 </style>

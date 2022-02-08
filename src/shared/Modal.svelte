@@ -2,29 +2,7 @@
 
 <div class="modal">
 	<div class="content">
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
-		<div class="content-item">Text</div>
+		<slot />
 	</div>
 </div>
 
@@ -39,9 +17,5 @@
 	.content {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-	}
-	.content-item {
-		min-width: 150px;
-		margin: 5px;
 	}
 </style>
