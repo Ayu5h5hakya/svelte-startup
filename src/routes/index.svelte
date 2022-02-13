@@ -3,6 +3,7 @@
 </script>
 
 <SiteHeader />
+<div class="homepage-auth-img" />
 <div class="homepage-auth-section">
 	The free, fun and effective way to learn a language!
 	<button>GET STARTED</button>
@@ -10,6 +11,11 @@
 </div>
 
 <style>
+	.homepage-auth-img {
+		background: url(https://d35aaqx5ub95lt.cloudfront.net/images/331a32943ff73be28537dfc7469d5639.svg);
+		background-size: 360px;
+		height: 360px;
+	}
 	.homepage-auth-section {
 		display: flex;
 		flex-direction: column;
