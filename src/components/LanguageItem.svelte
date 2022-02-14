@@ -4,6 +4,7 @@
 	.content-item {
 		min-width: 150px;
 		margin: 5px;
+		color: black;
 	}
 	.content-item:hover {
 		background: red;
