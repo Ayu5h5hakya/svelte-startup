@@ -9,28 +9,30 @@
 		alt=""
 	/>
 	<div>
-		<div class="lang-dropdown-btn">Press Me!</div>
-		<div class="lang-dropdown-modal">
-			<Modal>
-				<LanguageItem />
-				<LanguageItem />
-				<LanguageItem />
-				<LanguageItem />
-				<LanguageItem />
-				<LanguageItem />
-				<LanguageItem />
-				<LanguageItem />
-				<LanguageItem />
-				<LanguageItem />
-				<LanguageItem />
-				<LanguageItem />
-				<LanguageItem />
-				<LanguageItem />
-				<LanguageItem />
-				<LanguageItem />
-				<LanguageItem />
-				<LanguageItem />
-			</Modal>
+		<div class="lang-dropdown-btn">
+			Press Me!
+			<div class="lang-dropdown-modal">
+				<Modal>
+					<LanguageItem />
+					<LanguageItem />
+					<LanguageItem />
+					<LanguageItem />
+					<LanguageItem />
+					<LanguageItem />
+					<LanguageItem />
+					<LanguageItem />
+					<LanguageItem />
+					<LanguageItem />
+					<LanguageItem />
+					<LanguageItem />
+					<LanguageItem />
+					<LanguageItem />
+					<LanguageItem />
+					<LanguageItem />
+					<LanguageItem />
+					<LanguageItem />
+				</Modal>
+			</div>
 		</div>
 	</div>
 </header>
@@ -52,6 +54,10 @@
 	}
 
 	.lang-dropdown-modal {
+		display: none;
+	}
+
+	.lang-dropdown-btn:hover .lang-dropdown-modal {
 		display: block;
 	}
 </style>
