@@ -25,6 +25,51 @@
 	</p>
 </div>
 
+<div class="duolingo-info2">
+	<img src="https://d35aaqx5ub95lt.cloudfront.net/images/laptop-features.svg" alt="globe" />
+	<h2>Why you'll love learning with Duolingo</h2>
+	<div class="info-row">
+		<img src="https://d35aaqx5ub95lt.cloudfront.net/images/feature-streak.svg" alt="flame" />
+		<div>
+			<h3>Effective and efficient</h3>
+			<p>
+				Our courses effectively and effeciently teach reading, listening and speaking skills. Check
+				out our latest research
+			</p>
+		</div>
+	</div>
+	<div class="info-row">
+		<img src="https://d35aaqx5ub95lt.cloudfront.net/images/feature-streak.svg" alt="flame" />
+		<div>
+			<h3>Effective and efficient</h3>
+			<p>
+				Our courses effectively and effeciently teach reading, listening and speaking skills. Check
+				out our latest research
+			</p>
+		</div>
+	</div>
+	<div class="info-row">
+		<img src="https://d35aaqx5ub95lt.cloudfront.net/images/feature-streak.svg" alt="flame" />
+		<div>
+			<h3>Effective and efficient</h3>
+			<p>
+				Our courses effectively and effeciently teach reading, listening and speaking skills. Check
+				out our latest research
+			</p>
+		</div>
+	</div>
+	<div class="info-row">
+		<img src="https://d35aaqx5ub95lt.cloudfront.net/images/feature-streak.svg" alt="flame" />
+		<div>
+			<h3>Effective and efficient</h3>
+			<p>
+				Our courses effectively and effeciently teach reading, listening and speaking skills. Check
+				out our latest research
+			</p>
+		</div>
+	</div>
+</div>
+
 <style>
 	.homepage-auth-section {
 		color: white;
@@ -63,7 +108,20 @@
 		text-align: center;
 	}
 
+	.duolingo-info2 {
+		display: flex;
+		flex-direction: column;
+		background: white;
+		margin-top: 20px;
+		padding: 20px;
+	}
+
 	.duolingo-info1 img {
 		height: 150px;
+	}
+
+	.info-row {
+		display: flex;
+		align-items: start;
 	}
 </style>
