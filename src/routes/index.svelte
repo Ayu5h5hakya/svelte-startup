@@ -13,6 +13,18 @@
 	<button class="dimensions account-exists">I ALREADY HAVE AN ACCOUNT</button>
 </div>
 
+<div class="duolingo-info1">
+	<img
+		src="https://d35aaqx5ub95lt.cloudfront.net/images/776364e6419216ffd84ddf8d8815711b.svg"
+		alt="globe"
+	/>
+	<h2>The world's #1 way to learn a language</h2>
+	<p>
+		Learning with Duolingo is fun, and research shows that it works! With quick, bite-sized lessons,
+		you'll earn points and unlock new levels while gaming real-world communication skills.
+	</p>
+</div>
+
 <style>
 	.homepage-auth-section {
 		color: white;
@@ -22,7 +34,7 @@
 		align-items: center;
 	}
 
-	h2 {
+	.homepage-auth-section h2 {
 		text-align: center;
 	}
 
@@ -40,5 +52,18 @@
 
 	.account-exists {
 		background-color: #1cb0f6;
+	}
+
+	.duolingo-info1 {
+		display: flex;
+		flex-direction: column;
+		background: white;
+		margin-top: 20px;
+		padding: 20px;
+		text-align: center;
+	}
+
+	.duolingo-info1 img {
+		height: 150px;
 	}
 </style>
