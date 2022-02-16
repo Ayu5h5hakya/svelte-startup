@@ -39,9 +39,9 @@
 		</div>
 	</div>
 	<div class="info-row">
-		<img src="https://d35aaqx5ub95lt.cloudfront.net/images/feature-streak.svg" alt="flame" />
+		<img src="https://d35aaqx5ub95lt.cloudfront.net/images/feature-check.svg" alt="flame" />
 		<div>
-			<h3>Effective and efficient</h3>
+			<h3>Personalized learning</h3>
 			<p>
 				Our courses effectively and effeciently teach reading, listening and speaking skills. Check
 				out our latest research
@@ -49,9 +49,12 @@
 		</div>
 	</div>
 	<div class="info-row">
-		<img src="https://d35aaqx5ub95lt.cloudfront.net/images/feature-streak.svg" alt="flame" />
+		<img
+			src="https://d35aaqx5ub95lt.cloudfront.net/images/splash/ebdcc22deaf0f85388fcb09e7ecfbe78.svg"
+			alt="flame"
+		/>
 		<div>
-			<h3>Effective and efficient</h3>
+			<h3>Star motivated</h3>
 			<p>
 				Our courses effectively and effeciently teach reading, listening and speaking skills. Check
 				out our latest research
@@ -59,15 +62,23 @@
 		</div>
 	</div>
 	<div class="info-row">
-		<img src="https://d35aaqx5ub95lt.cloudfront.net/images/feature-streak.svg" alt="flame" />
+		<img
+			src="https://d35aaqx5ub95lt.cloudfront.net/images/splash/a4d5fab3d1926c240cb2ae696b07d156.svg"
+			alt="flame"
+		/>
 		<div>
-			<h3>Effective and efficient</h3>
+			<h3>Have fun with it!</h3>
 			<p>
 				Our courses effectively and effeciently teach reading, listening and speaking skills. Check
 				out our latest research
 			</p>
 		</div>
 	</div>
+</div>
+
+<div class="duolingo-info3">
+	<img src="https://d35aaqx5ub95lt.cloudfront.net/images/duo-plus-fly-circle-2.svg" alt="globe" />
+	<h2>Boost your learning with Duolingo Plus</h2>
 </div>
 
 <style>
@@ -109,6 +120,14 @@
 	}
 
 	.duolingo-info2 {
+		display: flex;
+		flex-direction: column;
+		background: white;
+		margin-top: 20px;
+		padding: 20px;
+	}
+
+	.duolingo-info3 {
 		display: flex;
 		flex-direction: column;
 		background: white;
