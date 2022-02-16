@@ -97,6 +97,16 @@
 	<button>Get it on Google Play</button>
 </div>
 
+<div class="duolingo-info5">
+	<img src="https://d35aaqx5ub95lt.cloudfront.net/images/laptop-schools.svg" alt="globe" />
+	<h2>Duolingo for Schools</h2>
+	<p>
+		Free teacher tools to help students learn languages thhrough the Duolingo app, both in and out
+		of the classroom.
+	</p>
+	<h4>BRING DUOLINGO TO YOUR CLASSROOM</h4>
+</div>
+
 <style>
 	.homepage-auth-section {
 		color: white;
@@ -152,6 +162,14 @@
 	}
 
 	.duolingo-info4 {
+		display: flex;
+		flex-direction: column;
+		background: white;
+		margin-top: 20px;
+		padding: 20px;
+	}
+
+	.duolingo-info5 {
 		display: flex;
 		flex-direction: column;
 		background: white;
