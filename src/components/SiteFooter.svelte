@@ -1,4 +1,6 @@
-<script></script>
+<script>
+	import SiteLanguage from '../shared/SiteLanguage.svelte';
+</script>
 
 <h3>Learn a language with Duolingo.</h3>
 <button>GET STARTED</button>
@@ -10,34 +12,7 @@
 	<div>Item1</div>
 	<div>Item1</div>
 </div>
-<div class="site-lang">
-	<span>Item1</span>
-	<span>Item1</span>
-	<span>Item1</span>
-	<span>Item1</span>
-	<span>Item1</span>
-	<span>Item1</span>
-	<span>Item1</span>
-	<span>Item1</span>
-	<span>Item1</span>
-	<span>Item1</span>
-	<span>Item1</span>
-	<span>Item1</span>
-	<span>Item1</span>
-	<span>Item1</span>
-	<span>Item1</span>
-	<span>Item1</span>
-	<span>Item1</span>
-	<span>Item1</span>
-	<span>Item1</span>
-	<span>Item1</span>
-	<span>Item1</span>
-	<span>Item1</span>
-	<span>Item1</span>
-	<span>Item1</span>
-	<span>Item1</span>
-	<span>Item1</span>
-</div>
+<SiteLanguage />
 
 <style>
 	.quick-access {
