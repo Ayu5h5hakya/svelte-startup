@@ -1,11 +1,47 @@
 <script></script>
 
-<div class="container">
-	<p>Site Language</p>
+<h3>Learn a language with Duolingo.</h3>
+<button>GET STARTED</button>
+<div class="quick-access">
+	<div>Item1</div>
+	<div>Item1</div>
+	<div>Item1</div>
+	<div>Item1</div>
+	<div>Item1</div>
+	<div>Item1</div>
+</div>
+<div class="site-lang">
+	<span>Item1</span>
+	<span>Item1</span>
+	<span>Item1</span>
+	<span>Item1</span>
+	<span>Item1</span>
+	<span>Item1</span>
+	<span>Item1</span>
+	<span>Item1</span>
+	<span>Item1</span>
+	<span>Item1</span>
+	<span>Item1</span>
+	<span>Item1</span>
+	<span>Item1</span>
+	<span>Item1</span>
+	<span>Item1</span>
+	<span>Item1</span>
+	<span>Item1</span>
+	<span>Item1</span>
+	<span>Item1</span>
+	<span>Item1</span>
+	<span>Item1</span>
+	<span>Item1</span>
+	<span>Item1</span>
+	<span>Item1</span>
+	<span>Item1</span>
+	<span>Item1</span>
 </div>
 
 <style>
-	.container {
-		padding: 0 40px 0 40px;
+	.quick-access {
+		display: grid;
+		grid-template-columns: auto auto;
 	}
 </style>

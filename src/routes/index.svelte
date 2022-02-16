@@ -1,5 +1,6 @@
 <script>
 	import SiteHeader from '../components/SiteHeader.svelte';
+	import SiteFooter from '../components/SiteFooter.svelte';
 </script>
 
 <SiteHeader />
@@ -106,6 +107,7 @@
 	</p>
 	<h4>BRING DUOLINGO TO YOUR CLASSROOM</h4>
 </div>
+<SiteFooter />
 
 <style>
 	.homepage-auth-section {
