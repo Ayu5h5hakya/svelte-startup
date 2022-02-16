@@ -79,6 +79,22 @@
 <div class="duolingo-info3">
 	<img src="https://d35aaqx5ub95lt.cloudfront.net/images/duo-plus-fly-circle-2.svg" alt="globe" />
 	<h2>Boost your learning with Duolingo Plus</h2>
+	<p>
+		Learning a language on Duolingo is completely free, but you can remove ads and make faster
+		progress with Plus. Try it free for 14 days!
+	</p>
+	<h4>LEARN MORE ABOUT DUOLINGO PLUS</h4>
+</div>
+
+<div class="duolingo-info4">
+	<img src="https://d35aaqx5ub95lt.cloudfront.net/images/duo-traveler.svg" alt="globe" />
+	<h2>Learn anytime, anywhere</h2>
+	<p>
+		Make your breaks and commutes more productive with our iPhone and Android apps. Download them
+		and see why Apple and Google gave us their highest accolades.
+	</p>
+	<button>Download on the App Store</button>
+	<button>Get it on Google Play</button>
 </div>
 
 <style>
@@ -128,6 +144,14 @@
 	}
 
 	.duolingo-info3 {
+		display: flex;
+		flex-direction: column;
+		background: white;
+		margin-top: 20px;
+		padding: 20px;
+	}
+
+	.duolingo-info4 {
 		display: flex;
 		flex-direction: column;
 		background: white;
