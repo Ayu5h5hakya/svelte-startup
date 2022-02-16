@@ -33,6 +33,9 @@
 </div>
 
 <style>
+	div {
+		font-family: 'Roboto Condensed', sans-serif;
+	}
 	span {
 		padding: 5px;
 	}

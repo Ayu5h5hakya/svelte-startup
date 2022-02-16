@@ -116,6 +116,7 @@
 		flex-direction: column;
 		max-width: 500px;
 		align-items: center;
+		font-family: 'Roboto Condensed', sans-serif;
 	}
 
 	.homepage-auth-section h2 {
@@ -132,10 +133,12 @@
 
 	.get-started {
 		background-color: #58cc02;
+		font-family: 'Roboto Condensed', sans-serif;
 	}
 
 	.account-exists {
 		background-color: #1cb0f6;
+		font-family: 'Roboto Condensed', sans-serif;
 	}
 
 	.duolingo-info1 {
@@ -143,6 +146,7 @@
 		flex-direction: column;
 		background: white;
 		text-align: center;
+		font-family: 'Roboto Condensed', sans-serif;
 	}
 
 	.duolingo-info2 {
@@ -150,6 +154,7 @@
 		flex-direction: column;
 		background: white;
 		align-items: center;
+		font-family: 'Roboto Condensed', sans-serif;
 	}
 
 	.duolingo-info3 {
@@ -157,6 +162,7 @@
 		flex-direction: column;
 		background: white;
 		align-items: center;
+		font-family: 'Roboto Condensed', sans-serif;
 	}
 
 	.duolingo-info4 {
@@ -164,6 +170,7 @@
 		flex-direction: column;
 		background: white;
 		align-items: center;
+		font-family: 'Roboto Condensed', sans-serif;
 	}
 
 	.duolingo-info5 {
@@ -171,6 +178,7 @@
 		flex-direction: column;
 		background: white;
 		align-items: center;
+		font-family: 'Roboto Condensed', sans-serif;
 	}
 
 	.duolingo-info1 img {

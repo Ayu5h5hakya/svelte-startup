@@ -15,6 +15,11 @@
 <SiteLanguage />
 
 <style>
+	h3,
+	button,
+	div {
+		font-family: 'Roboto Condensed', sans-serif;
+	}
 	.quick-access {
 		display: grid;
 		grid-template-columns: auto auto;
