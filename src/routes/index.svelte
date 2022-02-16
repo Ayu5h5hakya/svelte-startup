@@ -142,8 +142,6 @@
 		display: flex;
 		flex-direction: column;
 		background: white;
-		margin-top: 20px;
-		padding: 20px;
 		text-align: center;
 	}
 
@@ -151,32 +149,24 @@
 		display: flex;
 		flex-direction: column;
 		background: white;
-		margin-top: 20px;
-		padding: 20px;
 	}
 
 	.duolingo-info3 {
 		display: flex;
 		flex-direction: column;
 		background: white;
-		margin-top: 20px;
-		padding: 20px;
 	}
 
 	.duolingo-info4 {
 		display: flex;
 		flex-direction: column;
 		background: white;
-		margin-top: 20px;
-		padding: 20px;
 	}
 
 	.duolingo-info5 {
 		display: flex;
 		flex-direction: column;
 		background: white;
-		margin-top: 20px;
-		padding: 20px;
 	}
 
 	.duolingo-info1 img {
