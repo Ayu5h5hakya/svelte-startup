@@ -149,24 +149,28 @@
 		display: flex;
 		flex-direction: column;
 		background: white;
+		align-items: center;
 	}
 
 	.duolingo-info3 {
 		display: flex;
 		flex-direction: column;
 		background: white;
+		align-items: center;
 	}
 
 	.duolingo-info4 {
 		display: flex;
 		flex-direction: column;
 		background: white;
+		align-items: center;
 	}
 
 	.duolingo-info5 {
 		display: flex;
 		flex-direction: column;
 		background: white;
+		align-items: center;
 	}
 
 	.duolingo-info1 img {
