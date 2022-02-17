@@ -1,27 +1,39 @@
 <script>
 	import SiteLanguage from '../shared/SiteLanguage.svelte';
+	import QuickAccessgrid from './QuickAccessgrid.svelte';
 </script>
 
-<h3>Learn a language with Duolingo.</h3>
-<button>GET STARTED</button>
-<div class="quick-access">
-	<div>Item1</div>
-	<div>Item1</div>
-	<div>Item1</div>
-	<div>Item1</div>
-	<div>Item1</div>
-	<div>Item1</div>
+<div class="footer-content">
+	<div class="first-content">
+		<h1>Learn a language with Duolingo.</h1>
+		<button><h3>GET STARTED</h3></button>
+	</div>
+	<QuickAccessgrid />
+	<SiteLanguage />
 </div>
-<SiteLanguage />
 
 <style>
+	.first-content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer-content {
+		padding: 40px;
+		color: white;
+	}
 	h3,
 	button,
 	div {
 		font-family: 'Roboto Condensed', sans-serif;
 	}
-	.quick-access {
-		display: grid;
-		grid-template-columns: auto auto;
+
+	button {
+		min-width: 200px;
+		color: white;
+		background-color: #58cc02;
+		border-radius: 10px;
+		font-weight: bold;
+		box-shadow: inset;
 	}
 </style>

@@ -9,7 +9,7 @@
 		src="https://d35aaqx5ub95lt.cloudfront.net/images/331a32943ff73be28537dfc7469d5639.svg"
 		alt="globe"
 	/>
-	<h2>The free, fun and effective way to learn a language!</h2>
+	<h1>The free, fun and effective way to learn a language!</h1>
 	<button class="dimensions get-started">GET STARTED</button>
 	<button class="dimensions account-exists">I ALREADY HAVE AN ACCOUNT</button>
 </div>
@@ -112,15 +112,14 @@
 <style>
 	.homepage-auth-section {
 		color: white;
+		font-family: 'Roboto Condensed', serif;
 		display: flex;
 		flex-direction: column;
-		max-width: 500px;
 		align-items: center;
-		font-family: 'Roboto Condensed', sans-serif;
 	}
 
-	.homepage-auth-section h2 {
-		text-align: center;
+	.homepage-auth-section img {
+		width: 240px;
 	}
 
 	.dimensions {
@@ -129,6 +128,8 @@
 		color: white;
 		margin-top: 5px;
 		margin-bottom: 5px;
+		padding: 14px;
+		border-radius: 16px;
 	}
 
 	.get-started {
@@ -147,6 +148,7 @@
 		background: white;
 		text-align: center;
 		font-family: 'Roboto Condensed', sans-serif;
+		padding: 30px 0 30px 0;
 	}
 
 	.duolingo-info2 {
@@ -155,6 +157,7 @@
 		background: white;
 		align-items: center;
 		font-family: 'Roboto Condensed', sans-serif;
+		padding: 30px 0 30px 0;
 	}
 
 	.duolingo-info3 {
@@ -163,6 +166,7 @@
 		background: white;
 		align-items: center;
 		font-family: 'Roboto Condensed', sans-serif;
+		padding: 30px 0 30px 0;
 	}
 
 	.duolingo-info4 {
@@ -171,6 +175,7 @@
 		background: white;
 		align-items: center;
 		font-family: 'Roboto Condensed', sans-serif;
+		padding: 30px 0 30px 0;
 	}
 
 	.duolingo-info5 {
