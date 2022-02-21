@@ -54,10 +54,10 @@
 	}
 
 	.lang-dropdown-modal {
-		display: none;
+		visibility: hidden;
 	}
 
 	.lang-dropdown-btn:hover .lang-dropdown-modal {
-		display: block;
+		visibility: visible;
 	}
 </style>

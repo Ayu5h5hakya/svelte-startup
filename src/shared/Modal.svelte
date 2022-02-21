@@ -11,7 +11,7 @@
 		position: fixed;
 		background-color: white;
 		padding: 5px;
-		top: 50px;
+		top: 10px;
 		right: 20px;
 	}
 	.content {
