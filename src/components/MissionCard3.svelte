@@ -1,5 +1,4 @@
 <div class="mission-card">
-	<img src="https://d35aaqx5ub95lt.cloudfront.net/images/about/learning-fun.svg" alt="" />
 	<div class="mission-card-desc">
 		<h3>Universally accessible.</h3>
 		<p>
@@ -12,15 +11,31 @@
 			education.
 		</p>
 	</div>
+	<div class="mission-card-images">
+		<img
+			src="https://d35aaqx5ub95lt.cloudfront.net/images/about/universally-accessible-1.svg"
+			alt=""
+		/>
+		<img
+			src="https://d35aaqx5ub95lt.cloudfront.net/images/about/universally-accessible-2.svg"
+			alt=""
+		/>
+	</div>
 </div>
 
 <style>
 	.mission-card {
 		display: flex;
+		flex-direction: column;
 	}
 
 	.mission-card-desc {
 		display: flex;
 		flex-direction: column;
+	}
+
+	.mission-card-images {
+		display: flex;
+		justify-content: space-around;
 	}
 </style>
