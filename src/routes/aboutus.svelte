@@ -4,6 +4,14 @@
 	import MissionCard3 from '../components/MissionCard3.svelte';
 </script>
 
-<MissionCard1 />
-<MissionCard2 />
-<MissionCard3 />
+<div class="about-us">
+	<MissionCard1 />
+	<MissionCard2 />
+	<MissionCard3 />
+</div>
+
+<style>
+	.about-us {
+		padding: 100px;
+	}
+</style>
