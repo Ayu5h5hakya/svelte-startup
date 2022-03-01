@@ -1,9 +1,11 @@
 <script>
 	import Divider from '../shared/Divider.svelte';
 	import MissionCard from '../components/MissionCard.svelte';
+	import AboutUsTabs from '../components/AboutUsTabs.svelte';
 </script>
 
 <div class="about-us">
+	<AboutUsTabs />
 	<MissionCard
 		title="Personalized Education"
 		statement="Everyone learns in different ways. For the first time in history, we can analyze how millions
