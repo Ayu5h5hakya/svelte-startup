@@ -1,6 +1,7 @@
 <script>
 	import Divider from '../shared/Divider.svelte';
 	let tabLabels = ['Mission', 'Approach', 'Team', 'Careers', 'Research', 'Press', 'Contact Us'];
+	let activeTab = 0;
 </script>
 
 <div class="labels">
