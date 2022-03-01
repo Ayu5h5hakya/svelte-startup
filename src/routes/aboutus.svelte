@@ -1,4 +1,5 @@
 <script>
+	import Divider from '../shared/Divider.svelte';
 	import MissionCard from '../components/MissionCard.svelte';
 </script>
 
@@ -11,12 +12,14 @@
 	through technology"
 		imageurl="https://d35aaqx5ub95lt.cloudfront.net/images/about/personalized-education.svg"
 	/>
+	<Divider />
 	<MissionCard
 		title="Making learning fun."
 		statement="It's hard to stay motivated when learning online, so we made Duolingo so fun that people would
 		prefer picking up new skills over playing a game."
 		imageurl="https://d35aaqx5ub95lt.cloudfront.net/images/about/learning-fun.svg"
 	/>
+	<Divider />
 	<MissionCard
 		title="Universally accessible."
 		statement="There are over 1.2 billion people learning a language and the majority are doing so to gain
@@ -29,6 +32,7 @@
 		imageurl="https://d35aaqx5ub95lt.cloudfront.net/images/about/universally-accessible-1.svg"
 		imageurl2="https://d35aaqx5ub95lt.cloudfront.net/images/about/universally-accessible-2.svg"
 	/>
+	<Divider />
 </div>
 
 <style>
