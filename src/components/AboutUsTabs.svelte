@@ -6,7 +6,9 @@
 
 <div class="labels">
 	{#each tabLabels as label}
-		<h3>{label}</h3>
+		<div class:active={label === 'Mission'}>
+			<h3>{label}</h3>
+		</div>
 	{/each}
 </div>
 <Divider />
@@ -16,5 +18,9 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
+	}
+
+	.active {
+		color: red;
 	}
 </style>
