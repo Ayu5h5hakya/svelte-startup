@@ -4,7 +4,6 @@
 
 	let activeTab = 0;
 	const onTabChange = (e) => {
-		console.log(e.detail);
 		activeTab = e.detail.index;
 	};
 </script>

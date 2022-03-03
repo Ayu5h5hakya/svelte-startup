@@ -1,0 +1,24 @@
+<div class="plus-header">
+	<div class="plus-header-content">
+		<div class="title-subtitle">
+			<h3>Learn a new language the fun way</h3>
+			<h5>Reach your language goals with the world's #1 language app</h5>
+		</div>
+		<img src="https://d35aaqx5ub95lt.cloudfront.net/images/duo-plus-shop.svg" alt="" />
+	</div>
+</div>
+
+<style>
+	.plus-header {
+		width: 100%;
+		height: 50%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.plus-header-content {
+		width: 70%;
+		display: flex;
+		justify-content: space-around;
+	}
+</style>
