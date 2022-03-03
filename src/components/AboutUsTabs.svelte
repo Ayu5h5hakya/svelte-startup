@@ -1,10 +1,16 @@
 <script>
+	import { createEventDispatcher } from 'svelte';
+
 	import Divider from '../shared/Divider.svelte';
+
+	export let activeTab;
+
 	let tabLabels = ['Mission', 'Approach', 'Team', 'Careers', 'Research', 'Press', 'Contact Us'];
-	let activeTab = 0;
+
+	const dispatch = createEventDispatcher();
 
 	const onTabClick = (index) => {
-		activeTab = index;
+		dispatch('tab-change', { index });
 	};
 </script>
 
