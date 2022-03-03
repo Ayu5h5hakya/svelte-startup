@@ -10,9 +10,15 @@
 
 <div class="labels">
 	{#each tabLabels as label, index}
-		<div class="tab-label" on:click={() => onTabClick(index)}>
-			<h3>{label}</h3>
-		</div>
+		{#if index === activeTab}
+			<div class="active" on:click={() => onTabClick(index)}>
+				<h3>{label}</h3>
+			</div>
+		{:else}
+			<div class="tab-label" on:click={() => onTabClick(index)}>
+				<h3>{label}</h3>
+			</div>
+		{/if}
 	{/each}
 </div>
 <Divider />
@@ -22,6 +28,10 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
+	}
+
+	.active {
+		color: greenyellow;
 	}
 
 	.tab-label {
