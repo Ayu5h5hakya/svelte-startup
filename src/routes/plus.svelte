@@ -11,14 +11,20 @@
 <style>
 	.plus-header {
 		width: 100%;
-		height: 50%;
+		height: 300px;
 		display: flex;
 		justify-content: center;
+		background: yellowgreen;
 	}
 
 	.plus-header-content {
 		width: 70%;
 		display: flex;
 		justify-content: space-around;
+		align-items: center;
+	}
+
+	img {
+		object-fit: none;
 	}
 </style>
