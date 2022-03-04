@@ -6,8 +6,8 @@
 			<p>Free</p>
 		</div>
 		<div class="pro-container">
-			<p>Basic</p>
-			<p>Free</p>
+			<p>Pro</p>
+			<p>$6.99/mo</p>
 		</div>
 	</div>
 </div>
@@ -24,6 +24,7 @@
 		width: 300px;
 		height: 200px;
 		display: flex;
+		justify-content: space-around;
 		background-color: aqua;
 		border-radius: 10px;
 	}
