@@ -1,3 +1,7 @@
+<script>
+	import ChoosePlanSection from '../components/ChoosePlanSection.svelte';
+</script>
+
 <div class="plus-header">
 	<div class="plus-header-content">
 		<div class="title-subtitle">
@@ -7,6 +11,7 @@
 		<img src="https://d35aaqx5ub95lt.cloudfront.net/images/duo-plus-shop.svg" alt="" />
 	</div>
 </div>
+<ChoosePlanSection />
 
 <style>
 	.plus-header {
