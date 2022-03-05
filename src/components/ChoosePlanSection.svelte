@@ -2,12 +2,26 @@
 	<p>Choose your learning plan</p>
 	<div class="basic-vs-pro">
 		<div class="basic-container">
-			<p>Basic</p>
-			<p>Free</p>
+			<div class="basic-title">
+				<p>Basic</p>
+				<p>Free</p>
+			</div>
+			<p>
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis autem numquam, esse,
+				quisquam quasi voluptates iure magnam sequi recusandae, amet consequatur ipsa tempore
+				ratione soluta ullam a veritatis temporibus. Cum.
+			</p>
 		</div>
 		<div class="pro-container">
-			<p>Pro</p>
-			<p>$6.99/mo</p>
+			<div class="pro-title">
+				<p>Pro</p>
+				<p>$6.99/mo</p>
+			</div>
+			<p>
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis autem numquam, esse,
+				quisquam quasi voluptates iure magnam sequi recusandae, amet consequatur ipsa tempore
+				ratione soluta ullam a veritatis temporibus. Cum.
+			</p>
 		</div>
 	</div>
 </div>
@@ -25,7 +39,14 @@
 		height: 200px;
 		display: flex;
 		justify-content: space-around;
-		background-color: aqua;
 		border-radius: 10px;
+	}
+
+	.basic-title {
+		background-color: aqua;
+	}
+
+	.pro-title {
+		background-color: aqua;
 	}
 </style>
