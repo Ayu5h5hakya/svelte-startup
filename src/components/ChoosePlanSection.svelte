@@ -36,7 +36,7 @@
 
 	.basic-vs-pro {
 		width: 300px;
-		height: 200px;
+		height: 350px;
 		display: flex;
 		justify-content: space-around;
 		border-radius: 10px;
@@ -48,5 +48,15 @@
 
 	.pro-title {
 		background-color: aqua;
+	}
+
+	.basic-container {
+		margin: 2px;
+		border-style: solid;
+	}
+
+	.pro-container {
+		margin: 2px;
+		border-style: solid;
 	}
 </style>
