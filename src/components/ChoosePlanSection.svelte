@@ -1,11 +1,24 @@
 <script>
 	let isProPlan = true;
+
+	const onPlanTap = (plan) => {
+		console.log(plan);
+		console.log(isProPlan);
+		if (plan === 'pro') {
+			if (!isProPlan) isProPlan = true;
+		} else if (plan === 'basic') {
+			if (isProPlan) isProPlan = false;
+		}
+	};
 </script>
 
 <div class="plan-choose-container">
 	<p>Choose your learning plan</p>
 	<div class="basic-vs-pro">
-		<div class:selected-container={isProPlan === false}>
+		<div
+			class={isProPlan ? 'selected-container' : 'unselected-container'}
+			on:click={() => onPlanTap('basic')}
+		>
 			<div class="basic-title">
 				<p>Basic</p>
 				<p>Free</p>
@@ -62,7 +75,10 @@
 				</li>
 			</ul>
 		</div>
-		<div class:selected-container={isProPlan === true}>
+		<div
+			class={!isProPlan ? 'selected-container' : 'unselected-container'}
+			on:click={() => onPlanTap('pro')}
+		>
 			<div class="pro-title">
 				<p>Pro</p>
 				<p>$6.99/mo</p>
@@ -145,16 +161,10 @@
 		background-color: aqua;
 	}
 
-	.basic-container {
+	.unselected-container {
 		width: 50%;
 		border-style: solid;
 	}
-
-	.pro-container {
-		width: 50%;
-		border-style: solid;
-	}
-
 	.selected-container {
 		width: 50%;
 		border-style: solid;
