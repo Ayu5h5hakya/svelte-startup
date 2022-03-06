@@ -135,6 +135,13 @@
 			</ul>
 		</div>
 	</div>
+	<button>
+		{#if isProPlan}
+			START MY FREE TRIAL
+		{:else}
+			GET STARTED
+		{/if}
+	</button>
 </div>
 
 <style>
