@@ -1,7 +1,11 @@
+<script>
+	let isProPlan = true;
+</script>
+
 <div class="plan-choose-container">
 	<p>Choose your learning plan</p>
 	<div class="basic-vs-pro">
-		<div class="basic-container">
+		<div class:selected-container={isProPlan === false}>
 			<div class="basic-title">
 				<p>Basic</p>
 				<p>Free</p>
@@ -58,7 +62,7 @@
 				</li>
 			</ul>
 		</div>
-		<div class="pro-container">
+		<div class:selected-container={isProPlan === true}>
 			<div class="pro-title">
 				<p>Pro</p>
 				<p>$6.99/mo</p>
@@ -149,6 +153,12 @@
 	.pro-container {
 		width: 50%;
 		border-style: solid;
+	}
+
+	.selected-container {
+		width: 50%;
+		border-style: solid;
+		border-color: rebeccapurple;
 	}
 
 	ul {
