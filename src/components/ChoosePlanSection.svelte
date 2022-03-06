@@ -7,12 +7,55 @@
 				<p>Free</p>
 			</div>
 			<ul>
-				<li>Learning Content</li>
-				<li>Unlimited Hearts</li>
-				<li>Practice Mistakes</li>
-				<li>No Ads</li>
-				<li>Mastery Quiz</li>
-				<li>Unlimited Test Outs</li>
+				<li>
+					<span
+						><img
+							src="https://d35aaqx5ub95lt.cloudfront.net/images/plusLandingPage/7e67bb4da766cf5851e2947de8dc6cf1.svg"
+							alt=""
+						/></span
+					>
+					Learning Content
+				</li>
+				<li>
+					<span
+						><img
+							src="https://d35aaqx5ub95lt.cloudfront.net/images/plusLandingPage/de2b1b7d8dd85a8d4814533ec105ab3b.svg"
+							alt=""
+						/></span
+					>Unlimited Hearts
+				</li>
+				<li>
+					<span
+						><img
+							src="https://d35aaqx5ub95lt.cloudfront.net/images/plusLandingPage/de2b1b7d8dd85a8d4814533ec105ab3b.svg"
+							alt=""
+						/></span
+					>Practice Mistakes
+				</li>
+				<li>
+					<span
+						><img
+							src="https://d35aaqx5ub95lt.cloudfront.net/images/plusLandingPage/de2b1b7d8dd85a8d4814533ec105ab3b.svg"
+							alt=""
+						/></span
+					>No Ads
+				</li>
+				<li>
+					<span
+						><img
+							src="https://d35aaqx5ub95lt.cloudfront.net/images/plusLandingPage/de2b1b7d8dd85a8d4814533ec105ab3b.svg"
+							alt=""
+						/></span
+					>Mastery Quiz
+				</li>
+				<li>
+					<span
+						><img
+							src="https://d35aaqx5ub95lt.cloudfront.net/images/plusLandingPage/de2b1b7d8dd85a8d4814533ec105ab3b.svg"
+							alt=""
+						/></span
+					>Unlimited Test Outs
+				</li>
 			</ul>
 		</div>
 		<div class="pro-container">
@@ -21,12 +64,54 @@
 				<p>$6.99/mo</p>
 			</div>
 			<ul>
-				<li>Learning Content</li>
-				<li>Unlimited Hearts</li>
-				<li>Practice Mistakes</li>
-				<li>No Ads</li>
-				<li>Mastery Quiz</li>
-				<li>Unlimited Test Outs</li>
+				<li>
+					<span
+						><img
+							src="https://d35aaqx5ub95lt.cloudfront.net/images/plusLandingPage/7e67bb4da766cf5851e2947de8dc6cf1.svg"
+							alt=""
+						/></span
+					>Learning Content
+				</li>
+				<li>
+					<span
+						><img
+							src="https://d35aaqx5ub95lt.cloudfront.net/images/plusLandingPage/7e67bb4da766cf5851e2947de8dc6cf1.svg"
+							alt=""
+						/></span
+					>Unlimited Hearts
+				</li>
+				<li>
+					<span
+						><img
+							src="https://d35aaqx5ub95lt.cloudfront.net/images/plusLandingPage/7e67bb4da766cf5851e2947de8dc6cf1.svg"
+							alt=""
+						/></span
+					>Practice Mistakes
+				</li>
+				<li>
+					<span
+						><img
+							src="https://d35aaqx5ub95lt.cloudfront.net/images/plusLandingPage/7e67bb4da766cf5851e2947de8dc6cf1.svg"
+							alt=""
+						/></span
+					>No Ads
+				</li>
+				<li>
+					<span
+						><img
+							src="https://d35aaqx5ub95lt.cloudfront.net/images/plusLandingPage/7e67bb4da766cf5851e2947de8dc6cf1.svg"
+							alt=""
+						/></span
+					>Mastery Quiz
+				</li>
+				<li>
+					<span
+						><img
+							src="https://d35aaqx5ub95lt.cloudfront.net/images/plusLandingPage/7e67bb4da766cf5851e2947de8dc6cf1.svg"
+							alt=""
+						/></span
+					>Unlimited Test Outs
+				</li>
 			</ul>
 		</div>
 	</div>
@@ -68,5 +153,9 @@
 
 	ul {
 		list-style: none;
+	}
+
+	span {
+		margin-right: 10px;
 	}
 </style>
