@@ -1,6 +1,7 @@
 <script>
 	import SiteStats from '../components/SiteStats.svelte';
 	import ChoosePlanSection from '../components/ChoosePlanSection.svelte';
+	import HIghlightedFeatures from '../components/HIghlightedFeatures.svelte';
 </script>
 
 <div class="plus-header">
@@ -14,6 +15,7 @@
 </div>
 <ChoosePlanSection />
 <SiteStats />
+<HIghlightedFeatures />
 
 <style>
 	.plus-header {
