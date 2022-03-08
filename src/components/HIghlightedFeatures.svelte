@@ -7,12 +7,10 @@
 		<li>Streak Repair</li>
 		<li>Unlimited Hearts</li>
 	</ul>
-	<ul>
-		<li>Progress tracker</li>
-		<li>Ad-Free</li>
-		<li>Streak Repair</li>
-		<li>Unlimited Hearts</li>
-	</ul>
+	<img
+		src="https://d35aaqx5ub95lt.cloudfront.net/images/plusLandingPage/2ec4bb4cf764c7adee599b9e5021a475.gif"
+		alt=""
+	/>
 </div>
 
 <style>
