@@ -1,4 +1,5 @@
 <script>
+	import SiteStats from '../components/SiteStats.svelte';
 	import ChoosePlanSection from '../components/ChoosePlanSection.svelte';
 </script>
 
@@ -12,6 +13,7 @@
 	</div>
 </div>
 <ChoosePlanSection />
+<SiteStats />
 
 <style>
 	.plus-header {
