@@ -3,6 +3,7 @@
 	import ChoosePlanSection from '../components/ChoosePlanSection.svelte';
 	import HIghlightedFeatures from '../components/HIghlightedFeatures.svelte';
 	import FreeEducationSupport from '../components/FreeEducationSupport.svelte';
+	import StartFreeTrial from '../components/StartFreeTrial.svelte';
 </script>
 
 <div class="plus-header">
@@ -18,6 +19,7 @@
 <SiteStats />
 <HIghlightedFeatures />
 <FreeEducationSupport />
+<StartFreeTrial />
 
 <style>
 	.plus-header {
