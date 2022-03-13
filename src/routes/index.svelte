@@ -2,10 +2,12 @@
 	import SiteHeader from '../components/SiteHeader.svelte';
 	import SiteFooter from '../components/SiteFooter.svelte';
 	import HomeAuthSection from '../components/HomeAuthSection.svelte';
+	import LanguageNavigation from '../components/LanguageNavigation.svelte';
 </script>
 
 <SiteHeader />
 <HomeAuthSection />
+<LanguageNavigation />
 <div class="duolingo-info1">
 	<img
 		src="https://d35aaqx5ub95lt.cloudfront.net/images/776364e6419216ffd84ddf8d8815711b.svg"
