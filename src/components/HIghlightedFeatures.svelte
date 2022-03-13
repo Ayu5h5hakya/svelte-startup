@@ -32,5 +32,6 @@
 
 	.feature-demo {
 		display: flex;
+		justify-content: space-around;
 	}
 </style>
