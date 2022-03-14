@@ -37,13 +37,13 @@
 
 <style>
 	.navigation-container {
+		display: flex;
 		height: 74px;
 		width: 1004px;
 		margin: 0 auto;
 	}
 
 	nav {
-		display: flex;
 		flex-direction: row;
 	}
 
