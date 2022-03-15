@@ -1,7 +1,10 @@
-<h1>asdasdasdasds</h1>
+<header>
+	<p>Hello this is a header</p>
+</header>
 
 <style>
-	h1 {
-		color: aqua;
+	header {
+		background: #161b22;
+		color: white;
 	}
 </style>
