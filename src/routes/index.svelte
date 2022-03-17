@@ -1,10 +1,6 @@
-<header>
-	<p>Hello this is a header</p>
-</header>
+<div class="container-test">
+	<p>testing the text</p>
+</div>
 
 <style>
-	header {
-		background: #161b22;
-		color: white;
-	}
 </style>
