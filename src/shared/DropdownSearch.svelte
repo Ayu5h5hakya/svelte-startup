@@ -19,12 +19,16 @@
 	.dropdown-search {
 		display: flex;
 		align-items: center;
+		padding: 4px;
 		border: 1px;
 		border-style: solid;
+		border-color: '#30363d';
 	}
 
 	.dropdown-search input {
 		border: none;
+		background: none;
+		color: white;
 	}
 
 	.dropdown-search input:focus {
