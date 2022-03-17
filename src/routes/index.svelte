@@ -1,3 +1,7 @@
+<script>
+	import DropdownSearch from '../shared/DropdownSearch.svelte';
+</script>
+
 <header>
 	<div class="header-content-left">
 		<a href="http://google.com">
@@ -16,7 +20,7 @@
 				/>
 			</svg>
 		</a>
-		<input type="text" />
+		<DropdownSearch />
 		<nav>
 			<a href="#">Pull Requests</a>
 			<a href="#">Issues</a>
