@@ -81,10 +81,12 @@
 	header {
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
 		padding: 16px;
 	}
 
 	.header-content-left {
 		display: flex;
+		align-items: center;
 	}
 </style>
