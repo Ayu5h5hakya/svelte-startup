@@ -1,4 +1,10 @@
-<div class="repo-sidebar" />
+<script>
+	import RecentActivity from './RecentActivity.svelte';
+</script>
+
+<div class="repo-sidebar">
+	<RecentActivity />
+</div>
 
 <style>
 	.repo-sidebar {
