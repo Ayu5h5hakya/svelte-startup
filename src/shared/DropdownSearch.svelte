@@ -32,6 +32,7 @@
 	}
 
 	.dropdown-search input:focus {
+		width: 300px;
 		outline: none;
 	}
 </style>
