@@ -5,7 +5,6 @@
 
 <style>
 	.sidebar-content {
-		padding: 20px;
 	}
 	h3 {
 		color: white;
