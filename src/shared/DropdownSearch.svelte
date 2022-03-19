@@ -25,6 +25,12 @@
 		border-color: '#30363d';
 	}
 
+	@media (max-width: 690px) {
+		.dropdown-search {
+			display: none;
+		}
+	}
+
 	.dropdown-search input {
 		border: none;
 		background: none;
