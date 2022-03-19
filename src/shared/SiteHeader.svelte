@@ -97,4 +97,11 @@
 		color: white;
 		margin-right: 10px;
 	}
+
+	@media (max-width: 690px) {
+		nav,
+		.header-content-right {
+			display: none;
+		}
+	}
 </style>
