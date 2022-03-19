@@ -18,7 +18,7 @@
 		New
 	</a>
 </div>
-<input />
+<input placeholder="Find a Repository..." />
 
 <style>
 	.sidebar-recentrepos {
@@ -37,5 +37,14 @@
 		border-radius: 6px;
 		color: white;
 		text-decoration: none;
+	}
+
+	input {
+		width: 100%;
+		border: none;
+		background: none;
+		color: white;
+		padding: 5px;
+		margin-block: 15px;
 	}
 </style>
