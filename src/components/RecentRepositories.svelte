@@ -1,3 +1,9 @@
+<script>
+	const onSearchRepository = () => {
+		console.log('search some repositories');
+	};
+</script>
+
 <div class="sidebar-recentrepos">
 	<h3>Recent Repositories</h3>
 	<a href="#">
@@ -18,7 +24,7 @@
 		New
 	</a>
 </div>
-<input placeholder="Find a Repository..." />
+<input placeholder="Find a Repository..." on:focus={onSearchRepository} />
 
 <style>
 	.sidebar-recentrepos {
