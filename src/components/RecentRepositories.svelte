@@ -1,4 +1,5 @@
 <script>
+	const repoOwner = 'Ayu5h5hakya';
 	const onSearchRepository = () => {
 		console.log('search some repositories');
 	};
@@ -25,6 +26,19 @@
 	</a>
 </div>
 <input placeholder="Find a Repository..." on:focus={onSearchRepository} />
+<ul>
+	<li>{repoOwner}/Repo1</li>
+	<li>{repoOwner}/Repo1</li>
+	<li>{repoOwner}/Repo1</li>
+	<li>{repoOwner}/Repo1</li>
+	<li>{repoOwner}/Repo1</li>
+	<li>{repoOwner}/Repo1</li>
+	<li>{repoOwner}/Repo1</li>
+	<li>{repoOwner}/Repo1</li>
+	<li>{repoOwner}/Repo1</li>
+	<li>{repoOwner}/Repo1</li>
+	<li class="show-more"><a href="#">Show more</a></li>
+</ul>
 
 <style>
 	.sidebar-recentrepos {
@@ -36,7 +50,7 @@
 		color: #5a6066;
 	}
 
-	a {
+	div a {
 		background: #238636;
 		border: none;
 		padding: 5px;
@@ -47,10 +61,16 @@
 
 	input {
 		width: 100%;
-		border: none;
-		background: none;
-		color: white;
 		padding: 5px;
 		margin-block: 15px;
+	}
+
+	ul {
+		color: white;
+		list-style: none;
+	}
+
+	.show-more {
+		margin-block: 5px;
 	}
 </style>
