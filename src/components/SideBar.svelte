@@ -5,11 +5,13 @@
 	import RecentRepositories from './RecentRepositories.svelte';
 </script>
 
-<div class="repo-sidebar">
-	<RecentRepositories />
-	<HorizontalDivider />
-	<RecentActivity />
-</div>
+<aside>
+	<div class="repo-sidebar">
+		<RecentRepositories />
+		<HorizontalDivider />
+		<RecentActivity />
+	</div>
+</aside>
 
 <style>
 	.repo-sidebar {
