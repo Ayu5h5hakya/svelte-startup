@@ -1,15 +1,22 @@
 <script>
+	import UserPush from '../components/UserPush.svelte';
+
 	import SideBar from '../components/SideBar.svelte';
 	import SiteHeader from '../shared/SiteHeader.svelte';
 </script>
 
-<SiteHeader />
-<div class="wrapper">
-	<SideBar />
-	<div class="main-content">
-		<h3>This is the main content</h3>
-	</div>
-</div>
+asdasds
+<ul>
+	<li><UserPush /></li>
+	<li><UserPush /></li>
+	<li><UserPush /></li>
+	<li><UserPush /></li>
+	<li><UserPush /></li>
+	<li><UserPush /></li>
+	<li><UserPush /></li>
+	<li><UserPush /></li>
+	<li><UserPush /></li>
+</ul>
 
 <style>
 	.wrapper {
@@ -17,12 +24,11 @@
 		overflow: hidden;
 		height: 100vh;
 	}
-	.main-content {
-		overflow-y: auto;
+	aside {
+		flex: 1;
 	}
 
-	h3 {
-		background: red;
-		margin-left: 300px;
+	main {
+		flex: 3;
 	}
 </style>
