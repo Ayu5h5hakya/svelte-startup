@@ -21,5 +21,7 @@
 
 	.push-details {
 		padding: 20px;
+		border-style: solid;
+		border-color: white;
 	}
 </style>
