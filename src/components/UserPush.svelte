@@ -32,6 +32,7 @@
 	.push {
 		display: flex;
 		align-items: flex-start;
+		margin-bottom: 1rem;
 	}
 	.header-title {
 		display: flex;

@@ -5,7 +5,7 @@
 	import SiteHeader from '../shared/SiteHeader.svelte';
 </script>
 
-asdasds
+<SiteHeader />
 <ul>
 	<li><UserPush /></li>
 	<li><UserPush /></li>
