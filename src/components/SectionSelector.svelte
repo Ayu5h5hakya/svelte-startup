@@ -1,6 +1,14 @@
+<script>
+	import { createEventDispatcher } from 'svelte/internal';
+	const dispatch = createEventDispatcher();
+	const onTabClick = (index) => {
+		dispatch('tab-click', index);
+	};
+</script>
+
 <div class="tabs">
-	<p>Following</p>
-	<p>For you</p>
+	<p on:click={() => onTabClick(0)}>Following</p>
+	<p on:click={() => onTabClick(1)}>For you</p>
 </div>
 
 <style>
