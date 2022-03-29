@@ -11,7 +11,9 @@
 	<button>Send Feedback</button>
 </div>
 
-<Recommendation>Recommended for ayusj</Recommendation>
+<Recommendation>
+	<p slot="title">Recommended for ayusj</p>
+</Recommendation>
 
 <style>
 	.welcome {
