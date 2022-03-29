@@ -1,3 +1,7 @@
+<script>
+	import Recommendation from './Recommendation.svelte';
+</script>
+
 <div class="welcome">
 	<p>Welcome to the new feed!</p>
 	<p>
@@ -6,6 +10,8 @@
 	</p>
 	<button>Send Feedback</button>
 </div>
+
+<Recommendation>Recommended for ayusj</Recommendation>
 
 <style>
 	.welcome {
